@@ -1,0 +1,3 @@
+[submodule "riscv-toolchain-install-guide"]
+	path = riscv-toolchain-install-guide
+	url = https://github.com/swap2ag/riscv-toolchain-install-guide
