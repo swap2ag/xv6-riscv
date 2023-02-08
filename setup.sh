@@ -7,6 +7,7 @@ mv riscv64-unknown-elf.gcc-12.1.0.tar.gz installation/
 cd installation
 tar -xvzf riscv64-unknown-elf.gcc-12.1.0.tar.gz
 export PATH=$PATH:$SCRIPT_DIR/installation
+# export PATH=$PATH:/workspaces/xv6-riscv/installation/bin
 echo "export PATH=$PATH:$SCRIPT_DIR/installation" >> ~/.bashrc
 
 # git clone git clone https://github.com/qemu/qemu --depth=1
